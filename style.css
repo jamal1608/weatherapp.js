@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: rgba(147, 55, 233, 0.849);
+    color: rgba(83, 52, 112, 0.384);
+
+}
+.main h1{
+    color: #faf7f7;
+}
+#location{
+    position: relative;
+    font-size: x-large;
+    cursor: pointer;
+    color:  rgb(5, 83, 15);
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    margin-left: 12px;
+    
+
+}
+textarea:focus, #location:focus{
+    outline: none;
+}
+#search{
+color: #fff;
+font-size: xx-large;
+margin-top: 9px;
+margin-right: 10px;
+cursor: pointer;
+}
+#search:hover{
+    color: #ad0808;
+}
+
+#locate{
+    color: #fff;
+    font-size: xx-large;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.main2{
+    position:absolute;
+    align-self: baseline;
+    width: 400px;
+    height: 380px;
+    margin-top: 210px;
+    background-color: rgba(46, 95, 230, 0.692);
+    border-radius: 10px;
+    background-image: url(media/clouds-5368444_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main2 h1{
+    color: gold;
+}
+.input{
+    width: 370px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgba(82, 87, 87, 0.178);
+
+}
+#location::placeholder{
+    color: #fcfafa;
+    text-transform: capitalize;
+
+}
+#location:hover{
+    color: rgb(201, 116, 5);
+
+}
+.main3{
+    position:absolute;
+    align-self: baseline;
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 400px;
+    height: 380px;
+    margin-top: 240px;
+    margin-left: 60px;
+    background-color: rgba(139, 109, 112, 0.356);
+    border-radius: 10px;
+}
+
+.city{
+    color: #ad0808;
+    margin-bottom: 250px;
+text-align: center;
+
+}
+.temp{
+    font-size: 40px;
+    color: rgb(15, 15, 15);
+    margin-right: 0px;
+    text-align: center;
+    
+
+}
+.speed{
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    margin-top: 240px;
+    margin-right: 0px;
+    text-align: center;
+}
+.humid{
+    font-size: 20px;
+    color: rgb(253, 252, 252);
+    margin-top: 240px;
+    margin-right: 0px;
+    text-align: end;
+}
